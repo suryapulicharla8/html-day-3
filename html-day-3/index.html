@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> 1.Create a form containing input fields Name, Age, E-mail, nd Password ?</p>
+    ans :
+    <form>
+        <lable for="Name">Name :</lable>
+        <input type="text" id="Name" name="Name" placeholder="Enter Your Name" required>
+        <br>
+        <br>
+        <label for="Age">Age :</label>
+        <input type="number" id="Age" name="Age" placeholder="Enter Your Age" required>
+        <br>
+        <br>
+        <label for="E-Mail">E-Mail :</label>
+        <input type="E-Mail" id="E-Mail" name="E-Mail" placeholder="Enter Your E-Mail" required>
+        <br>
+        <br>
+        <label for="Password">Password :</label>
+        <input type="Password" id="Password" name="Password" placeholder="Enter Your Password" maxlength="10" required>
+        <br>
+        <br>
+        <input type="submit" placeholder="Submit" background-color="red">
+    </form>
+    <p> 2.how to clospan?</p>
+    Ans :
+    <table border="2px">
+        <th>Course</th>
+        <th colspan="2">Contact Number</th>
+        <th>Date of Commencement</th>
+    </tr>
+    <tr>
+        <td>Elevation Academy</td>
+        <td>1234567890</td>
+        <td>2 August 2022</td>
+    </tr>
+    <tr>
+        <td>Elevation Academy</td>
+        <td>1234567890</td>
+        <td>8 September 2022</td>
+    </tr>
+    <tr>
+        <td>Elevation Academy</td>
+        <td>123456798</td>
+        <td>8 September 2022</td>
+    </tr>>
+    </table>
+    <br>
+    <p> 3. Rowspan ?</p>
+    <table border="2px">
+        <th>Course</th>
+        <th >Contact Number</th>
+        <th>Date of Commencement</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Elevation Academy</td>
+        <td>1234567890</td>
+        <td>2 August 2022</td>
+    </tr>
+    <tr>
+        <!-- <td>Elevation Academy</td> -->
+        <td>1234567890</td>
+        <td>8 September 2022</td>
+    </tr>
+    <tr>
+        <!-- <td>Elevation Academy</td> -->
+        <td>123456798</td>
+        <td>8 September 2022</td>
+    </tr>
+    </table>
+    <br>
+    <p> 4.Difference between flex row column ?</p>
+    flex row :
+    in css, the flex row direction property default is row. The items sart from the start edge of the main axis.
+    <br>
+    Flex column :
+    In css, flex container main axis is the same as the block-axis.
+    <br>
+    <p> 5 .inline, internal, external ?</p>
+    Inline :
+    style as an element. Ex: property:value;<br>
+    Internal :
+    style as an attribute.Ex color:red;<br>
+    External :own css file.Ex <link rel="stylesheet" href="style.css">
+    <br>
+    <p> 6.Justify content allows you to what?</p>
+    Ans :
+    in css justify content is one type of property .it helps to the developer where you have to put tha elements in the html document.Ex start, center,end.
+    <br>
+    <p> 7.Difference betwween relative an absolute ?</p>
+    Ans :
+    relative :
+    the elemnent is position relative to its normal position.
+    Absolute :
+    the element is position absolute to its first position to the parent.
+    <br>
+    <p> 8.grid tempalate columns?</p>
+    In css,grid tempalate columns property specifies the number of columns in a grid layout.
+    ex
+    <br>
+    <P> 9.what is z-index ?</P>
+    In css, -index is used to over lapping the elements or images in the ocument.
+    Ex :
+    <style>
+        .div {
+            height: 100px;
+            width: 100px;
+            position: relative;
+            background-color: aqua;
+            border: red 1px;
+            top:50px;
+            left: 20px;
+            z-index:2 ;
+        }
+        .main {
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            background: yellow;
+            border: yellowgreen 1px;
+            z-index: ;
+        }
+
+    </style>
+    <div class="div"></div>
+    <div class="main"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p> 10.padding and margin</p>
+    Ans :
+    Padding is the space  that inside  elements between the elements and the border.
+    Margins are the blank spaces that line the top, bottom,and left,and right sides of the a document.
+    <br>
+
+</body>
+</html>
